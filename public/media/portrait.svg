@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 1040" role="img" aria-labelledby="title desc">
+  <title id="title">卢冠彤的几何人物肖像</title>
+  <desc id="desc">由黑色扫描线、红色方块和网格构成的抽象人物侧面肖像，作为作品集中的个人视觉标识。</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#0A0A0A" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#0A0A0A"/>
+      <rect y="4" width="10" height="3" fill="#F1F1F1"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="24" y="24" width="792" height="992"/>
+    </clipPath>
+  </defs>
+
+  <rect width="840" height="1040" fill="#F1F1F1"/>
+  <rect width="840" height="1040" fill="url(#grid)" clip-path="url(#frame)"/>
+
+  <!-- Swiss red block -->
+  <rect x="116" y="148" width="330" height="330" fill="#D9001B"/>
+  <rect x="116" y="148" width="330" height="330" fill="none" stroke="#0A0A0A" stroke-width="1"/>
+
+  <!-- Abstract profile, filled with scan lines -->
+  <path d="M 208 1010
+           C 218 866 258 790 310 734
+           C 278 686 260 626 264 558
+           C 270 438 324 344 420 302
+           C 516 260 606 312 642 392
+           C 670 454 660 514 628 558
+           C 658 588 674 624 662 662
+           C 650 700 620 718 584 722
+           C 612 764 646 804 680 830
+           C 732 870 760 930 764 1010 Z"
+        fill="url(#scan)" stroke="#0A0A0A" stroke-width="2"/>
+  <!-- Inner contour -->
+  <path d="M 334 744
+           C 300 690 286 628 292 560
+           C 300 462 348 386 428 350
+           C 502 318 574 358 604 424
+           C 626 474 618 522 592 558
+           C 616 584 628 614 618 646
+           C 608 676 586 690 558 694"
+        fill="none" stroke="#F1F1F1" stroke-width="2"/>
+  <path d="M 470 330 C 520 342 560 380 574 430" fill="none" stroke="#F1F1F1" stroke-width="2"/>
+  <path d="M 578 584 C 620 606 638 642 628 680" fill="none" stroke="#0A0A0A" stroke-width="2"/>
+
+  <!-- Red eye mark / identity accent -->
+  <rect x="500" y="454" width="48" height="8" fill="#D9001B"/>
+  <line x1="420" y1="510" x2="470" y2="504" stroke="#F1F1F1" stroke-width="2"/>
+
+  <!-- Editorial labels -->
+  <rect x="40" y="934" width="322" height="86" fill="#F1F1F1"/>
+  <line x1="40" y1="934" x2="362" y2="934" stroke="#0A0A0A" stroke-width="1"/>
+  <g font-family="Consolas, 'Cascadia Code', monospace" fill="#0A0A0A">
+    <text x="52" y="76" font-size="14" letter-spacing="2">PORTRAIT_01 / 2026</text>
+    <text x="52" y="100" font-size="12" fill="#545454">GEOMETRIC IDENTITY — LU GUANTONG</text>
+    <text x="52" y="962" font-size="12" fill="#545454">CLOUD OPS · NETWORK OPS</text>
+    <text x="52" y="986" font-size="28" font-weight="700" letter-spacing="-1">LU GUANTONG</text>
+    <text x="52" y="1010" font-size="12" fill="#545454">GUILIN · CHINA / 25.27N 110.29E</text>
+  </g>
+
+  <!-- Registration marks -->
+  <g stroke="#0A0A0A" stroke-width="1.5">
+    <path d="M24 70V24h46M770 24h46v46M816 970v46h-46M70 1016H24v-46"/>
+  </g>
+  <circle cx="744" cy="918" r="34" fill="none" stroke="#0A0A0A" stroke-width="1"/>
+  <path d="M710 918h68M744 884v68" stroke="#0A0A0A" stroke-width="1"/>
+
+  <!-- Red corner tab -->
+  <rect x="724" y="24" width="92" height="24" fill="#D9001B"/>
+  <text x="740" y="41" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" letter-spacing="1">OPEN TO WORK</text>
+</svg>

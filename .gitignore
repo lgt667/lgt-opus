@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.source/
+.artifacts/
+.vite/
+启动网站.bat
+*.local
+*.zip
+.DS_Store
+Thumbs.db

@@ -1,0 +1,58 @@
+:root {
+  /* Palette: Swiss grid, white paper, black ink, one signal red. */
+  --bg: #ffffff;
+  --surface: #f1f1f1;
+  --surface-2: #f7f7f4;
+  --ink: #0a0a0a;
+  --muted: #545454;
+  --muted-2: #6b6b6b;
+  --line: rgba(10, 10, 10, 0.16);
+  --line-soft: rgba(10, 10, 10, 0.09);
+  --line-strong: #0a0a0a;
+  --accent: #d9001b;
+  --accent-dark: #bd0018;
+  --accent-ink: #ffffff;
+
+  /* Type */
+  --font-sans: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "HarmonyOS Sans SC",
+    "MiSans", "Microsoft YaHei", system-ui, sans-serif;
+  --font-mono: "SFMono-Regular", "Cascadia Code", "Roboto Mono", Consolas, "Liberation Mono",
+    monospace;
+
+  --fs-micro: 12px;
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-base: 16px;
+  --fs-md: 20px;
+  --fs-lg: 32px;
+  --fs-xl: 32px;
+  --fs-2xl: 60px;
+  --fs-section: clamp(32px, 4.2vw, 60px);
+  --fs-display: clamp(62px, 8.9vw, 128px);
+
+  /* Space */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  /* Layout */
+  --max: 1700px;
+  --gutter: clamp(20px, 3.55vw, 64px);
+  --header-h: 80px;
+  --section-pad: clamp(88px, 9vw, 144px);
+
+  /* Shape */
+  --radius: 0px;
+  --border: 1px solid var(--line);
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur: 220ms;
+}

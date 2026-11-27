@@ -1,0 +1,21 @@
+{
+  "name": "lu-guangtong-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "卢冠彤 · 云计算与网络运维方向个人作品集",
+  "scripts": {
+    "start": "vite --host 127.0.0.1 --port 5173",
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^7.1.7"
+  }
+}
